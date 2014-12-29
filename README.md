@@ -1,5 +1,5 @@
-Genetic Algorithms Scratch Project
-==================================
+Hello Evo World
+===============
 
 Organism has a set of RULES encoded in the genes, constructed into strings called chromosomes
 * Genotype - genes (hair colour) and settings (blonde, brown etc...)
@@ -15,8 +15,6 @@ Chromosome - 10010101110101001010011101101110111111101
 * Step through the chromosomes bits and flip based on the Mutation Rate
 * Repeat until a new population of N members has been created
 
-See this article - http://www.electricmonk.nl/log/2011/09/28/evolutionary-algorithm-evolving-hello-world/
-
 There's two basic implementations in Ruby adapted from the original Python code:
 * Simple one organism example
 * Evolutionary example with a genepool of size 20
@@ -26,5 +24,4 @@ Both of these use a very basic mutation of a set of characters in a string and i
 Also see:
 
 http://www.reddit.com/r/programming/comments/ktg7o/evolutionary_algorithm_evolving_hello_world/
-
 https://news.ycombinator.com/item?id=3047046
